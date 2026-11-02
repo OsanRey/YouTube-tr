@@ -1,0 +1,9 @@
+{
+  "vot_enabled": true,
+  "vot_source_language": "auto",
+  "vot_target_language": "ru",
+  "vot_auto_translate": true,
+  "vot_pause_video_while_preparing_translation": true,
+  "vot_translation_volume": 100,
+  "vot_original_audio_volume": 20
+}

@@ -1,0 +1,21 @@
+{
+  "appName": "YouTube+tr",
+  "package": "anddea.youtube",
+  "youtubeVersion": "21.13.164",
+  "patchBundle": "anddea 4.3.0",
+  "cli": "Morphe Desktop 1.20.0",
+  "architecture": "arm64-v8a",
+  "device": "Xiaomi Pad 6",
+  "android": "14",
+  "appliedPatches": 74,
+  "failedPatches": 0,
+  "apkBytes": 108754756,
+  "sha256": "81da31f08b8a260bf8beafd0af51b5128af3524ceef6d0e1f133cbb48240d29c",
+  "verification": [
+    "Google source APK signature verified against installed YouTube",
+    "Output APK signature verified",
+    "ADB installation succeeded",
+    "Home feed and account access verified",
+    "English video Russian voice-over confirmed by user"
+  ]
+}
