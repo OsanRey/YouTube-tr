@@ -1,5 +1,12 @@
 NOTICE
 
+YouTube+tr local changes (2026-11-02, release 1.0.1):
+The SponsorBlock skip/highlight button layout is adapted to size itself to its
+contents and center its children, fixing clipped labels with enlarged system
+fonts. The marked replacement resource and application script are included in
+the YouTube+tr repository. This is an unofficial derivative configuration;
+original authorship and the upstream notices below are preserved.
+
 This software contains original work by anddea:
 https://github.com/anddea/revanced-patches
 

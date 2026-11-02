@@ -6,7 +6,7 @@ YouTube+tr is an unofficial personal build configuration. It does not claim auth
 
 Source: https://github.com/anddea/revanced-patches/tree/d4c3ce4b67155c4ea728aa831f5485bdb3d75934
 
-Version: 4.3.0. The source archive is included in the release as `anddea-patches-4.3.0-source.tar.gz`. No upstream source files were modified for this build; build-time options select the name, icon and included patches. Original copyright notices, upstream credits and license information remain in the source archive and application. Preserve the upstream GPLv3 additional terms in the relevant source files and the [NOTICE](NOTICE) when redistributing covered work.
+Version: 4.3.0. The original upstream source archive is included in the release as `anddea-patches-4.3.0-source.tar.gz`. Build-time options select the name, icon and included patches. Since YouTube+tr 1.0.1, one SponsorBlock layout resource is replaced with the marked derivative in `overrides/youtube/sponsorblock/shared/layout/revanced_sb_skip_sponsor_button.xml` to fix label clipping with enlarged fonts. The replacement source and its application script are included in this repository at the corresponding release tag. No upstream bytecode is changed by this local fix. Original copyright notices, upstream credits and license information remain in the source archive and application. Preserve the upstream GPLv3 additional terms in the relevant source files and the [NOTICE](NOTICE) when redistributing covered work.
 
 The Yandex translation integration credits anddea, Jav1x and other contributors identified in the upstream files. It is based on https://github.com/ilyhalight/voice-over-translation and its credited predecessors.
 

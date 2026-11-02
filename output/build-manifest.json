@@ -10,12 +10,16 @@
   "appliedPatches": 74,
   "failedPatches": 0,
   "apkBytes": 108754756,
-  "sha256": "81da31f08b8a260bf8beafd0af51b5128af3524ceef6d0e1f133cbb48240d29c",
+  "sha256": "7f4be53297f8bbd6e2036dfe0a7eeee3f91be5d3814e92804521e4365ebc8fae",
   "verification": [
-    "Google source APK signature verified against installed YouTube",
-    "Output APK signature verified",
-    "ADB installation succeeded",
-    "Home feed and account access verified",
-    "English video Russian voice-over confirmed by user"
-  ]
+    "Original Google APK and official patch bundle hashes verified",
+    "Derived patch bundle differs only in SponsorBlock skip button XML; all bytecode identical",
+    "Output APK signature matches release 1.0.0",
+    "ADB update installation succeeded without data removal",
+    "Skip and highlight Russian labels visually verified at font scale 1.25 on Xiaomi Pad 6",
+    "Account access and Russian voice-over confirmed on the same patch bytecode in release 1.0.0"
+  ],
+  "releaseVersion": "1.0.1",
+  "localResourceFix": "SponsorBlock skip/highlight layout: content-sized height, centered children, font padding",
+  "localResourceSha256": "ee61f310f6dec455eb76924868d2a9e77379c6d946c95f870b597ddb1a91ffde"
 }

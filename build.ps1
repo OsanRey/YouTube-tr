@@ -19,9 +19,11 @@ if ((Get-FileHash -LiteralPath $Apk -Algorithm SHA1).Hash.ToLowerInvariant() -ne
 }
 New-Item -ItemType Directory -Path 'build-cache', 'output', 'logs' -Force | Out-Null
 $env:MORPHE_DATA_DIR = Join-Path $PSScriptRoot 'build-cache'
+$patchedBundle = Join-Path $env:MORPHE_DATA_DIR 'local-patches\patches-4.3.0.mpp'
+& (Join-Path $PSScriptRoot 'apply-resource-overrides.ps1') -Bundle 'tools\patches-4.3.0.mpp' -Out $patchedBundle
 $buildArgs = @(
     '-Xmx6g', '-jar', 'tools\morphe-cli.jar', 'patch',
-    '-p', 'tools\patches-4.3.0.mpp',
+    '-p', $patchedBundle,
     '--options-file', 'build-options.json',
     '--striplibs', 'arm64-v8a',
     '-o', 'output\YouTube+tr-21.13.164.apk',
