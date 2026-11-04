@@ -1,5 +1,14 @@
 # Changes
 
+## TV 0.1.0 — 2026-11-04
+
+- Separate YouTube+tr TV based on SmartTube 32.69, with native D-pad navigation and ARMv7/ARM64 libraries; package `org.smarttube.stable` replaces stable SmartTube.
+- Add Yandex VOT to the player settings and general settings, with Russian translation, language selection, automatic translation for following videos, original audio volume and Yandex account options.
+- Keep translated audio synchronized with pause, playback, seeking and speed. Cancel pending work and release the translation player when changing or leaving a video.
+- Default to live voices. If Yandex refuses a translation, retry once with the other voice mode and a fresh initial request. Ordinary voices can incorrectly report “no speech” for a video whose live-voice translation is ready.
+- Preserve and expose upstream credits/licenses and isolate this build from incompatible official SmartTube updates.
+- Verified installation and startup on X4 Android 11 ARMv7, native remote navigation, Russian voice-over confirmed by the user, pause/resume and a 20-second seek with matching video/voice positions. Six fixed protobuf protocol checks pass. ARM64 runtime, OAuth login and uploading a new source audio track have not been verified on-device.
+
 ## 1.0.2 — 2026-11-04
 
 - Universal APK: preserve arm64-v8a, armeabi-v7a, x86 and x86_64 libraries instead of keeping only ARM64.

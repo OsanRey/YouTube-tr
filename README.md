@@ -2,7 +2,7 @@
 
 YouTube для Android с возможностями ReVanced Extended и закадровым переводом на русский через Яндекс VOT.
 
-**[Скачать APK и GmsCore](https://github.com/OsanRey/YouTube-tr/releases/latest)**
+**[Планшет/телефон: APK и GmsCore](https://github.com/OsanRey/YouTube-tr/releases/tag/v1.0.2)** · **[ТВ-версия на SmartTube](tv/README.md)**
 
 Неофициальная сборка на основе [anddea/revanced-patches](https://github.com/anddea/revanced-patches). Реализация перевода основана на [ilyhalight/voice-over-translation](https://github.com/ilyhalight/voice-over-translation). Это конфигурация сборки существующих проектов, а не самостоятельная реализация переводчика.
 
@@ -67,6 +67,8 @@ YouTube для Android с возможностями ReVanced Extended и зак
 Контрольные суммы APK и архивов исходников находятся в `SHA256SUMS.txt` каждого релиза.
 
 ## Android TV и приставки
+
+Для управления обычным пультом предназначена отдельная **YouTube+tr TV на базе SmartTube**. Она заменяет стабильный SmartTube, поддерживает ARMv7/ARM64 и включает отдельную дорожку перевода Яндекса. [Описание, настройки и сборка ТВ-версии](tv/README.md).
 
 Для устройств со списком архитектур `armeabi-v7a,armeabi` используется встроенная версия ARMv7. Отдельные библиотеки старой архитектуры `armeabi` для них не нужны.
 

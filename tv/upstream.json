@@ -1,0 +1,13 @@
+{
+  "SmartTube": {"repository": "https://github.com/yuliskov/SmartTube.git", "commit": "c8873b539d8463b3276d54e395f94e5cd2bd3198", "version": "32.69"},
+  "MediaServiceCore": {"repository": "https://github.com/yuliskov/MediaServiceCore.git", "commit": "090dc9b813d4e67e192a7d17ba3dd323157b2335"},
+  "SharedModules": {"repository": "https://github.com/yuliskov/SharedModules.git", "commit": "5b6b5d1d3ba670e3f89edef1d1394a7562251f2c"},
+  "anddea": {"repository": "https://github.com/anddea/revanced-patches.git", "commit": "d4c3ce4b67155c4ea728aa831f5485bdb3d75934", "version": "4.3.0"},
+  "java": "17",
+  "compileSdk": 36,
+  "buildTools": "36.0.0",
+  "targetSdk": 34,
+  "minSdk": 23,
+  "versionName": "32.69-tr1",
+  "package": "org.smarttube.stable"
+}
