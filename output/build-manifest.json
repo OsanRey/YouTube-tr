@@ -4,22 +4,41 @@
   "youtubeVersion": "21.13.164",
   "patchBundle": "anddea 4.3.0",
   "cli": "Morphe Desktop 1.20.0",
-  "architecture": "arm64-v8a",
-  "device": "Xiaomi Pad 6",
-  "android": "14",
+  "architecture": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86",
+    "x86_64"
+  ],
+  "device": "X4",
+  "android": "11",
   "appliedPatches": 74,
   "failedPatches": 0,
-  "apkBytes": 108754756,
-  "sha256": "7f4be53297f8bbd6e2036dfe0a7eeee3f91be5d3814e92804521e4365ebc8fae",
+  "apkBytes": 201974290,
+  "sha256": "98ede48d79f537e9aeba7f98e71306bacdab2596183fbb6fb4c14ca36ce21f19",
   "verification": [
-    "Original Google APK and official patch bundle hashes verified",
-    "Derived patch bundle differs only in SponsorBlock skip button XML; all bytecode identical",
-    "Output APK signature matches release 1.0.0",
-    "ADB update installation succeeded without data removal",
-    "Skip and highlight Russian labels visually verified at font scale 1.25 on Xiaomi Pad 6",
-    "Account access and Russian voice-over confirmed on the same patch bytecode in release 1.0.0"
+    "Official input APK and patch bundle hashes verified",
+    "Output APK signature matches releases 1.0.0 and 1.0.1",
+    "74 patches applied successfully",
+    "All native libraries checked for correct ELF class and architecture in all four ABI folders",
+    "ADB installation succeeded on X4 Android 11 with primaryCpuAbi=armeabi-v7a",
+    "SponsorBlock layout fix and translation configuration retained",
+    "Official GmsCore 0.3.13.2.250932 SHA-256 and APK signature verified",
+    "GmsCore installation and YouTube+tr UI launch succeeded on X4 Android 11; device security settings were not changed"
   ],
-  "releaseVersion": "1.0.1",
+  "releaseVersion": "1.0.2",
   "localResourceFix": "SponsorBlock skip/highlight layout: content-sized height, centered children, font padding",
-  "localResourceSha256": "ee61f310f6dec455eb76924868d2a9e77379c6d946c95f870b597ddb1a91ffde"
+  "localResourceSha256": "ee61f310f6dec455eb76924868d2a9e77379c6d946c95f870b597ddb1a91ffde",
+  "androidTv": {
+    "model": "X4",
+    "android": "11",
+    "sdk": 30,
+    "abi": "armeabi-v7a",
+    "installed": true,
+    "launchVerified": true,
+    "networkPlaybackVerified": false,
+    "networkPlaybackNote": "Not tested: VPN is not yet configured in the test environment."
+  },
+  "gmsCoreVersion": "0.3.13.2.250932",
+  "gmsCoreSha256": "62119f040d629a9cd3225f280649a464936730c6466cafb5b9dd5ded14269a65"
 }

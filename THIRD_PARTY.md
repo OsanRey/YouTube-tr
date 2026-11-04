@@ -12,9 +12,9 @@ The Yandex translation integration credits anddea, Jav1x and other contributors 
 
 ## ReVanced GmsCore / microG
 
-Source: https://github.com/ReVanced/GmsCore/tree/v0.3.1.4.240913
+Source: https://github.com/ReVanced/GmsCore/tree/v0.3.13.2.250932
 
-Version: 0.3.1.4.240913, version code 240913008. The redistributed APK is unmodified. The corresponding upstream source archive is included in the release as `GmsCore-0.3.1.4.240913-source.tar.gz`; it retains the upstream license texts, copyright notices, dependency references and build instructions. The microG project and its components retain their respective licenses, including Apache-2.0 where indicated upstream.
+Version: 0.3.13.2.250932, version code 250932004, included since YouTube+tr 1.0.2. The redistributed APK is unmodified and its SHA-256 matches the official release asset. The corresponding upstream source archive is included in the release as `GmsCore-0.3.13.2.250932-source.tar.gz`; it retains the upstream license texts, copyright notices, dependency references and build instructions. Earlier YouTube+tr releases included unmodified GmsCore 0.3.1.4.240913 and its matching source archive. The microG project and its components retain their respective licenses, including Apache-2.0 where indicated upstream.
 
 ## Morphe Desktop
 

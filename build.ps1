@@ -25,7 +25,6 @@ $buildArgs = @(
     '-Xmx6g', '-jar', 'tools\morphe-cli.jar', 'patch',
     '-p', $patchedBundle,
     '--options-file', 'build-options.json',
-    '--striplibs', 'arm64-v8a',
     '-o', 'output\YouTube+tr-21.13.164.apk',
     '-r', 'output\patch-result.json',
     $Apk
